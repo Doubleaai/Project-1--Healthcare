@@ -6,7 +6,7 @@ This project analyses an insurance dataset to understand factors influencing ins
 
 ## Data Cleaning
 
-The original dataset required extensive cleaning before analysis. I used Python scripts in the terminal to preprocess the data, handling missing values, categorical encoding, and verifying data consistency. This process was challenging due to package dependencies and environment setup, requiring multiple installations and troubleshooting. Thankfully, AI tools like ChatGPT and GitHub Copilot were invaluable in guiding me through coding and debugging. The final cleaned data was saved as cleaned_insurance_data.csv, ensuring a reproducible and organised workflow.
+The original dataset required extensive cleaning before analysis. I used Python scripts in the terminal to preprocess the data, handling missing values, categorical encoding, and verifying data consistency. This process was challenging due to package dependencies and environment setup, requiring multiple installations and troubleshooting. Thankfully, AI tools like ChatGPT and GitHub Copilot were invaluable in guiding me through coding and debugging. The final cleaned data was saved as cleaned_insurance.csv, ensuring a reproducible and organised workflow.
 
 ## Visualisations Conducted
 
@@ -27,8 +27,8 @@ During the course of this project, I encountered several challenges that require
 Data Cleaning and Preparation:
 Initially, the dataset required cleaning to ensure accurate analysis. This involved handling missing values, encoding categorical variables, and ensuring consistency. Performing these steps via Python in the terminal was sometimes complex and time-consuming.
 
-Plotting and Visualization Issues:
-I faced difficulties displaying interactive Plotly visualizations correctly, especially in different environments such as Jupyter notebooks and GitHub. Rendering errors and the need to export static images for GitHub previews required additional setup and troubleshooting.
+Plotting and Visualisation Issues:
+I faced difficulties displaying interactive Plotly visualisations correctly, especially in different environments such as Jupyter notebooks and GitHub. Rendering errors and the need to export static images for GitHub previews required additional setup and troubleshooting.
 
 Package Installation and Environment Setup:
 Setting up the Python virtual environment with all required dependencies (such as nbformat, ipython, ipykernel, and kaleido) posed challenges due to version conflicts and installation errors.
