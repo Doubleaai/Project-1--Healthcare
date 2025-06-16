@@ -1,69 +1,75 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+# Insurance Charges Analysis Project
+
 ## Project Overview
 
-This project analyses an insurance dataset to understand factors influencing insurance charges. Key variables include age, gender, smoking status, BMI, and region. Using Python, I performed exploratory data analysis through scatter plots, box plots, and bar charts to uncover meaningful trends.
+This project analyses an insurance dataset to understand the factors influencing insurance charges. Key variables considered include age, gender, smoking status, BMI, and region. Using Python, I conducted exploratory data analysis employing scatter plots, box plots, and bar charts to uncover meaningful trends within the data.
 
 ## Data Cleaning
 
-The original dataset required extensive cleaning before analysis. I used Python scripts in the terminal to preprocess the data, handling missing values, categorical encoding, and verifying data consistency. This process was challenging due to package dependencies and environment setup, requiring multiple installations and troubleshooting. Thankfully, AI tools like ChatGPT and GitHub Copilot were invaluable in guiding me through coding and debugging. The final cleaned data was saved as cleaned_insurance.csv, ensuring a reproducible and organised workflow.
+The original dataset required extensive cleaning prior to analysis. I utilised Python scripts executed via the terminal to preprocess the data, which involved handling missing values, encoding categorical variables, and verifying data consistency. This process proved challenging due to complex package dependencies and environment configuration issues, requiring multiple installations and troubleshooting. Fortunately, AI tools such as ChatGPT and GitHub Copilot provided invaluable assistance in guiding me through the coding and debugging phases. The final cleaned dataset was saved as `cleaned_insurance.csv`, ensuring a reproducible and organised workflow.
 
 ## Visualisations Conducted
 
-** Scatter plot: Insurance charges versus age, colour-coded by smoking status.
-
-** Box plot: Distribution of insurance charges by gender.
-
-** Bar chart: Average insurance charges for smokers versus non-smokers.
+- Scatter plot: Insurance charges plotted against age, colour-coded by smoking status.
+- Box plot: Distribution of insurance charges across gender.
+- Bar chart: Comparison of average insurance charges for smokers versus non-smokers.
 
 ## Insights and Findings
 
-The analysis reveals that smokers incur higher insurance costs, charges increase with age, and there are noticeable gender differences in costs. These findings help understand key drivers of insurance charges and can inform pricing and risk strategies.
+The analysis reveals that smokers incur significantly higher insurance costs, charges tend to increase with age, and there are observable differences in charges between genders. These findings shed light on the primary drivers of insurance charges and may inform pricing and risk management strategies.
 
 ## Challenges and Solutions
 
-During the course of this project, I encountered several challenges that required perseverance and learning:
+Throughout the project, several challenges arose that required persistence and problem-solving:
 
-Data Cleaning and Preparation:
-Initially, the dataset required cleaning to ensure accurate analysis. This involved handling missing values, encoding categorical variables, and ensuring consistency. Performing these steps via Python in the terminal was sometimes complex and time-consuming.
+### Data Cleaning and Preparation
 
-Plotting and Visualisation Issues:
-I faced difficulties displaying interactive Plotly visualisations correctly, especially in different environments such as Jupyter notebooks and GitHub. Rendering errors and the need to export static images for GitHub previews required additional setup and troubleshooting.
+Initially, the dataset demanded comprehensive cleaning to enable accurate analysis. This process involved addressing missing data, performing categorical encoding, and ensuring overall data integrity. Conducting these steps through Python scripts in the terminal was at times complex and time-consuming.
 
-Package Installation and Environment Setup:
-Setting up the Python virtual environment with all required dependencies (such as nbformat, ipython, ipykernel, and kaleido) posed challenges due to version conflicts and installation errors.
+### Plotting and Visualisation Issues
 
-How These Challenges Were Overcome:
+Rendering interactive Plotly visualisations posed difficulties, particularly when attempting to display them consistently across different environments such as Jupyter notebooks and GitHub. Rendering errors necessitated exporting static images for GitHub previews, which involved additional setup and troubleshooting.
 
-To navigate these issues, I leveraged AI-assisted tools such as ChatGPT and GitHub Copilot extensively. These tools provided guidance on best coding practices, troubleshooting errors, and writing efficient data-cleaning and visualization scripts. Through iterative problem-solving and external help, I was able to streamline the data pipeline, ensure smooth plotting functionality, and maintain reproducibility.
+### Package Installation and Environment Setup
+
+Establishing the Python virtual environment with all requisite dependencies — including `nbformat`, `ipython`, `ipykernel`, and `kaleido` — presented challenges related to version conflicts and installation errors.
+
+### How These Challenges Were Overcome
+
+To overcome these obstacles, I relied extensively on AI-assisted tools like ChatGPT and GitHub Copilot. These resources offered guidance on best coding practices, error resolution, and efficient scripting for data cleaning and visualisation. Through iterative debugging and external support, I successfully streamlined the data pipeline, ensured smooth visualisation functionality, and maintained reproducibility.
+
+## Day 2 Progress Update
+
+### Project Check-ins and Roadblocks
+
+- Regularly sought guidance via ChatGPT and Copilot to troubleshoot package installation, kernel issues, and visualisation rendering problems.
+- Addressed issues preventing Plotly charts from displaying correctly on GitHub by implementing static image exports alongside interactive plots.
+- Maintained workflow stability through frequent environment restarts and consistent data validation.
+
+### Task Management and Tracking
+
+- Organised the project into clear, manageable phases: data cleaning, exploratory visualisation, insight generation, and documentation.
+- Ensured transparency of progress by documenting completed tasks and updating the Jupyter Notebook and README files accordingly.
+
+### ETL Process Refinement
+
+- Delivered a clean, validated dataset saved separately, ready for further analysis and visualisation.
+- Incorporated data validation steps to maintain accuracy throughout the ETL pipeline.
 
 ## Conclusion and Next Steps
 
-This project highlights the value of exploratory data analysis in uncovering patterns within insurance data. Future work could involve advanced statistical methods and predictive models to better estimate charges. Further data enrichment and feature engineering may also provide deeper insights.
+This project highlights the importance of exploratory data analysis in uncovering key patterns within insurance data. Future work could extend to implementing advanced statistical techniques and predictive models to improve charge estimation. Additional data enrichment and feature engineering may further enhance insight and support more robust pricing strategies.
 
 ## References
 
-References
-Pandas Documentation — for data manipulation and analysis:
-https://pandas.pydata.org/docs/
+- [Pandas Documentation](https://pandas.pydata.org/docs/) — for data manipulation and analysis.
+- [Plotly Documentation](https://plotly.com/python/) — for creating interactive visualisations.
+- [Seaborn Documentation](https://seaborn.pydata.org/) — for statistical data visualisation.
+- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html) — for static plotting.
+- [ChatGPT by OpenAI](https://openai.com/chatgpt) — AI assistance with coding, debugging, and project guidance.
+- [GitHub Copilot](https://github.com/features/copilot) — AI-powered code completion and suggestions.
+- [Python Official Documentation](https://docs.python.org/3/) — language reference and modules.
+- [Kaggle: Medical Insurance Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance) — source of healthcare insurance data used in this project.
 
-Plotly Documentation — for creating interactive visualizations:
-https://plotly.com/python/
-
-Seaborn Documentation — for statistical data visualization:
-https://seaborn.pydata.org/
-
-Matplotlib Documentation — for static plotting:
-https://matplotlib.org/stable/contents.html
-
-ChatGPT by OpenAI — AI assistance in coding, debugging, and project guidance:
-https://openai.com/chatgpt
-
-GitHub Copilot — AI-powered code completion and suggestions:
-https://github.com/features/copilot
-
-Python Official Documentation — for language reference and modules:
-https://docs.python.org/3/
-
-Kaggle: Medical Insurance Dataset — source of healthcare insurance data used in this project:
-https://www.kaggle.com/datasets/mirichoi0218/insurance
